@@ -6,7 +6,7 @@ html {
     overflow-y: auto;
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
-    color: #6f6f6f;
+    color: #ffcc33;
 }
 ::-webkit-scrollbar { width: 2px;  }/* for vertical scrollbars */
 ::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.1); }
@@ -20,7 +20,7 @@ h1 {
 }
 h1 small { text-transform: lowercase }
 h2 {
-    line-height: 24px;
+    line-height: 100px;
     font-weight: 300;
 }
 h5 { font-size: 16px }
@@ -56,7 +56,7 @@ a:focus {
     border: 0px;
 }
 .navbar-brand img {
-    height: 30px;
+    height: 50px;
     width: auto;
 }
 .navbar-brand { padding: 12px 15px }
@@ -577,7 +577,7 @@ a:focus {
     
     -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);/* IE10+ */
     background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);/* W3C */
-    padding: 20% 0;
+    padding: 12% 0;
     background-attachment: fixed;
     background: rgba(138, 0, 0, 0.16);
     text-align: left;
@@ -1477,7 +1477,7 @@ p.help-block.text-danger ul li {
 }
 /* Footer */
 #footer {
-    padding: 35px 0 10px;
+    padding: 25px 0 35px;
     background-color: #1B1B1B;
     color: #ffffff;
 }
