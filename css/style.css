@@ -381,14 +381,6 @@ h4.media-heading {
     padding:80px 0;
 }
 
-#about h1 {
-    color:#fff;
-    font-size:36px;
-    line-height:42px;
-    font-weight:300;
-    margin-bottom:24px;
-    position:relative;
-}
 #about h2, #about h5 {
     color:#fff;
 
@@ -428,12 +420,6 @@ h4.media-heading {
     bottom: -10px;
     left: 50px;
 }
-.about-right-content { padding: 0;}
-.about-left-content { padding-bottom: 60px }
-.about-left-content h2,
-.about-left-content h2 small { color: #333 }
-.about-left-content h2 small { font-weight: 300 }
-ul.social li a.fa {
     background: #FFCC32;
     width: 50px;
     height: 50px;
@@ -533,16 +519,7 @@ ul.social li a.fa:hover { background-color: #333333 }
     font-size: 40px;
     color: #FFFFFF;
 }
-.count-box.last {}
-/* Portfolio / Works Sections */
-#team { padding: 60px 0 }
-#team .item {
-    padding: 30px 0px;
-    margin: 5px 20px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
+
 .item .hover-bg {
     position: relative;
     overflow: hidden;
@@ -620,15 +597,6 @@ ul.features li span.fa {
     float: left;
     clear: both;
     margin-top: 5px;
-}
-/* Portfolio or works blocks */
-#works { padding: 60px 0 ;background-color: #fff;}
-ul.cat { margin: 30px 0 }
-ul.cat li a {
-    background: inherit;
-    border: 1px solid #DB3838;
-    padding: 10px 16px;
-    color: #DB3838;
 }
 ul.cat li a:hover,
 ul.cat li a:focus,
@@ -732,13 +700,6 @@ ul.cat li a.active {
     transition: all 0.5s;
     border: 1px solid #ffffff;
 }
-#itemsWorkTwo .box .hover-text i.fa:hover { background: #333333 }
-/* Portfolio Style #3 */
-#itemsWorkThree .box h5 {
-    border: 1px solid #ddd;
-    padding: 10px 0;
-    margin: 0;
-}
 /* Isotope Filter */
 .isotope-item { z-index: 2 }
 .isotope-hidden.isotope-item { z-index: 1 }
@@ -788,14 +749,6 @@ ul.cat li a.active {
     -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.4);
     -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.4);
     box-shadow: 0px 1px 1px rgba(0,0,0,0.4);
-}
-/* Single Portfolio Detail */
-#work-detail-one,
-#work-detail-two,
-#work-detail-three { padding: 60px 0 }
-.work-detail .dl-horizontal dt {
-    text-align: left;
-    margin-bottom: 10px;
 }
 .work-related-thumb { margin-bottom: 30px }
 .work-related-thumb .img-thumbnail {
